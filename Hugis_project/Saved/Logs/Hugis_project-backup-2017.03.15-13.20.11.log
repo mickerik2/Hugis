@@ -1,0 +1,1136 @@
+﻿Log file open, 03/08/17 14:04:47
+LogInit:Display: Running engine for game: Hugis_project
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(937878894) SRandInit(937878894).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.070841
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.08-12.04.48:517][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-12.04.48:517][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.08-12.04.48:527][  0]LogInit: Computer: C3008-09
+[2017.03.08-12.04.48:527][  0]LogInit: User: heikkivayrynen
+[2017.03.08-12.04.48:527][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.08-12.04.48:527][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2017.03.08-12.04.48:527][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.08-12.04.48:527][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.04.48:527][  0]LogMemory: Process Physical Memory: 262.90 MB used, 262.90 MB peak
+[2017.03.08-12.04.48:527][  0]LogMemory: Process Virtual Memory: 262.47 MB used, 262.47 MB peak
+[2017.03.08-12.04.48:527][  0]LogMemory: Physical Memory: 4622.09 MB used,  11642.50 MB free, 16264.59 MB total
+[2017.03.08-12.04.48:527][  0]LogMemory: Virtual Memory: 645.25 MB used,  11642.50 MB free, 134217728.00 MB total
+[2017.03.08-12.04.48:593][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.08-12.04.49:090][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.08-12.04.49:107][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.03.08-12.04.49:107][  0]LogD3D11RHI:       1969/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.08-12.04.49:112][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.08-12.04.49:112][  0]LogD3D11RHI:       128/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.08-12.04.49:113][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.08-12.04.49:113][  0]LogD3D11RHI:       0/0/8132 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.08-12.04.49:113][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.08-12.04.49:116][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.08-12.04.49:116][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.08-12.04.49:116][  0]LogWindows: EnumDisplayDevices:
+[2017.03.08-12.04.49:116][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.03.08-12.04.49:116][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.08-12.04.49:116][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.08-12.04.49:116][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.03.08-12.04.49:116][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.08-12.04.49:116][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.08-12.04.49:116][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.08-12.04.49:127][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.03.08-12.04.49:127][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.08-12.04.49:144][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.08-12.04.49:144][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Intermediate/Shaders/WorkingDirectory/9988/).
+[2017.03.08-12.04.49:145][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/heikki.vayrynen/AppData/Local/Temp/UnrealShaderWorkingDir/CBB098EF401CF834606CC4BD40D2BCFD/'.
+[2017.03.08-12.04.49:145][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.08-12.04.49:865][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.08-12.04.49:908][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.08-12.04.49:950][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.08-12.04.49:992][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.08-12.04.50:034][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.08-12.04.50:077][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.08-12.04.50:122][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.08-12.04.50:166][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.08-12.04.50:202][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.08-12.04.50:244][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.08-12.04.50:285][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.08-12.04.50:326][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.08-12.04.50:367][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.08-12.04.50:409][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.08-12.04.50:451][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.08-12.04.50:533][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.08-12.04.50:533][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.08-12.04.50:561][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.08-12.04.50:639][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.08-12.04.50:666][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.08-12.04.50:708][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.08-12.04.50:748][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.08-12.04.50:789][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.08-12.04.50:830][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.08-12.04.50:831][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.08-12.04.51:154][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/heikki.vayrynen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/heikki.vayrynen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.08-12.04.51:194][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.08-12.04.51:210][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.08-12.04.51:223][  0]LogDerivedDataCache: Using Local data cache path C:/Users/heikki.vayrynen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.08-12.04.51:230][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.08-12.04.51:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-12.04.51:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.08-12.04.51:417][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.08-12.04.51:419][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.08-12.04.51:576][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.08-12.04.51:607][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.08-12.04.51:638][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.08-12.04.51:638][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.08-12.04.51:638][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.08-12.04.52:036][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: hugis_project, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2766890005
+[2017.03.08-12.04.52:075][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.03.08-12.04.52:115][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022255 seconds
+[2017.03.08-12.04.52:118][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.08-12.04.52:118][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.08-12.04.52:118][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.08-12.04.52:164][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.08-12.04.53:366][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.08-12.04.53:398][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.08-12.04.53:739][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.08-12.04.54:021][  0]SourceControl: Info Source control is disabled
+[2017.03.08-12.04.54:021][  0]SourceControl: Info Source control is disabled
+[2017.03.08-12.04.54:055][  0]SourceControl: Info Source control is disabled
+[2017.03.08-12.04.54:088][  0]SourceControl: Info Source control is disabled
+[2017.03.08-12.04.54:980][  0]LogEngine: Initializing Engine...
+[2017.03.08-12.04.54:980][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.08-12.04.55:164][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.08-12.04.55:169][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.04.55:193][  0]LogInit: FAudioDevice initialized.
+[2017.03.08-12.04.55:213][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/heikki.vayrynen/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.08-12.04.55:221][  0]LogInit: Texture streaming: Enabled
+[2017.03.08-12.04.55:292][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.08-12.04.55:354][  0]LogInit: Transaction tracking system initialized
+[2017.03.08-12.04.55:603][  0]BlueprintLog: New page: Editor Load
+[2017.03.08-12.04.56:234][  0]LocalizationService: Info Localization service is disabled
+[2017.03.08-12.04.56:729][  0]LogConsoleResponse:Display: 
+[2017.03.08-12.04.56:838][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.08-12.04.56:838][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.08-12.04.57:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/' took 0.01s
+[2017.03.08-12.04.57:592][  0]SourceControl: Info Source control is disabled
+[2017.03.08-12.04.57:592][  0]Cmd: MAP LOAD FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.08-12.04.57:592][  0]LightingResults: New page: Lighting Build
+[2017.03.08-12.04.57:622][  0]MapCheck: New page: Map Check
+[2017.03.08-12.04.57:622][  0]LightingResults: New page: Lighting Build
+[2017.03.08-12.04.57:941][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.08-12.04.57:951][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.08-12.04.57:952][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.08-12.04.57:986][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.08ms to complete.
+[2017.03.08-12.04.57:986][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.394
+[2017.03.08-12.04.58:042][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.08-12.04.58:134][  0]LogCollectionManager: Loaded 0 collections in 0.001017 seconds
+[2017.03.08-12.04.58:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collections/' took 0.01s
+[2017.03.08-12.04.58:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Developers/heikkivayrynen/Collections/' took 0.01s
+[2017.03.08-12.04.58:201][  0]LogFileCache: Scanning file cache for directory 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Collections/' took 0.01s
+[2017.03.08-12.04.58:201][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.08-12.04.58:208][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2244 classes and 450 folders.
+[2017.03.08-12.04.58:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.08-12.04.58:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.08-12.04.58:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.08-12.04.58:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.08-12.04.58:313][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.08-12.04.58:351][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.08-12.04.58:357][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.08-12.04.58:411][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.08-12.04.58:411][  0]LogLoad: (Engine Initialization) Total time: 11.32 seconds
+[2017.03.08-12.04.58:411][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.03.08-12.04.58:411][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.08-12.04.58:411][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.08-12.04.58:421][  0]LogOcInput: OculusInput pre-init called
+[2017.03.08-12.04.58:441][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.08-12.04.58:442][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.08-12.04.58:446][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.08-12.04.58:450][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.08-12.04.58:601][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:2).
+[2017.03.08-12.04.58:670][  1]LogAssetRegistry: Asset discovery search completed in 6.6162 seconds
+[2017.03.08-12.04.58:670][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.03.08-12.04.58:670][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.03.08-12.05.01:545][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2017.03.08-12.05.03:909][541]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.08-12.05.17:378][936]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.08-12.05.17:745][936]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.03.08-12.05.30:414][936]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.08-12.06.22:285][336]BlueprintLog: New page: Compile Egg_Base
+[2017.03.08-12.06.23:297][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.06.23:318][390]LogSavePackage: Save=19.14ms
+[2017.03.08-12.06.23:318][390]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_BaseB3FFD5C94FE398FF6B7EAFAB1346A1BA.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset'
+[2017.03.08-12.06.23:320][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset
+[2017.03.08-12.06.27:999][826]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.Egg_Base_C_0.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.27:999][826]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.Egg_Base_C_4.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.27:999][826]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Egg_Base.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.29:158][936]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.Egg_Base_C_0.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.29:158][936]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.Egg_Base_C_4.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.29:158][936]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Egg_Base.Box) Not currently registered. Aborting.
+[2017.03.08-12.06.31:665][171]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.08-12.06.40:664][136]BlueprintLog: New page: Compile Egg_Base
+[2017.03.08-12.06.41:325][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.06.41:354][167]LogSavePackage: Save=19.88ms
+[2017.03.08-12.06.41:354][167]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_BaseEF4A090D4675FF2235949489CFCED1A2.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset'
+[2017.03.08-12.06.41:356][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset
+[2017.03.08-12.06.54:709][620]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.03.08-12.06.54:709][620]LogMetaData: Removing '/Game/ThirdPersonBP/Maps/TestiLeveli.SKEL_TestiLeveli_C' ref from Metadata '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.PackageMetaData'
+[2017.03.08-12.06.54:994][620]LogSavePackage: Save=215.97ms
+[2017.03.08-12.06.54:994][620]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli38D7EBDF4B0E7FB064F37A91B0BA5BF2.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-12.06.54:996][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-12.06.55:019][620]LogFileHelpers: Saving map 'TestiLeveli' took 0.294
+[2017.03.08-12.07.09:392][283]LogSavePackage: Save=213.01ms
+[2017.03.08-12.07.09:392][283]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli40E40CCC42AF0C063D61F484310DE10A.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-12.07.09:396][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-12.07.09:412][283]LogFileHelpers: Saving map 'TestiLeveli' took 0.293
+[2017.03.08-12.07.36:070][209]BlueprintLog: New page: Compile Egg_Base
+[2017.03.08-12.07.36:571][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.07.36:593][247]LogSavePackage: Save=20.02ms
+[2017.03.08-12.07.36:594][247]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_Base54BF1A254085AE05DC810D9F565384F3.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset'
+[2017.03.08-12.07.36:596][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset
+[2017.03.08-12.07.37:365][339]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.07.37:380][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.07.37:381][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.07.37:381][339]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:07:37 PM)
+[2017.03.08-12.07.37:381][339]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.07.37:399][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018281s)
+[2017.03.08-12.07.37:400][339]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.07.37:400][339]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2017.03.08-12.07.37:400][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.019451s)
+[2017.03.08-12.07.37:418][339]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.07.37:426][339]LogInit: FAudioDevice initialized.
+[2017.03.08-12.07.37:499][339]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.07.37:501][339]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.07.37
+[2017.03.08-12.07.37:501][339]LogWorld: Bringing up level for play took: 0.001742
+[2017.03.08-12.07.37:533][339]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.03.08-12.07.37:535][339]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.114
+[2017.03.08-12.07.37:535][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.07.42:759][959]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.07.42:759][959]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.07.42:772][959]Cmd: MEM
+[2017.03.08-12.07.42:784][959]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.07.42:784][959]LogMemory: Process Physical Memory: 1369.05 MB used, 1378.14 MB peak
+[2017.03.08-12.07.42:784][959]LogMemory: Process Virtual Memory: 2235.65 MB used, 2255.04 MB peak
+[2017.03.08-12.07.42:784][959]LogMemory: Physical Memory: 5752.85 MB used,  10511.74 MB free, 16264.59 MB total
+[2017.03.08-12.07.42:784][959]LogMemory: Virtual Memory: 3022.53 MB used,  10511.74 MB free, 134217728.00 MB total
+[2017.03.08-12.07.42:784][959]LogMemory: 
+[2017.03.08-12.07.42:784][959]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.07.42:784][959]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.07.42:804][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019968s)
+[2017.03.08-12.07.42:805][959]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.07.42:805][959]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2017.03.08-12.07.42:806][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.021172s)
+[2017.03.08-12.07.42:806][959]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.07.42:811][959]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.07.42
+[2017.03.08-12.07.42:812][959]LogWorld: Bringing up level for play took: 0.005097
+[2017.03.08-12.07.42:812][959]LogLoad: Took 0.053418 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.07.47:083][469]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.07.47:083][469]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.07.47:096][469]Cmd: MEM
+[2017.03.08-12.07.47:108][469]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.07.47:108][469]LogMemory: Process Physical Memory: 1360.25 MB used, 1388.78 MB peak
+[2017.03.08-12.07.47:108][469]LogMemory: Process Virtual Memory: 2043.77 MB used, 2385.74 MB peak
+[2017.03.08-12.07.47:108][469]LogMemory: Physical Memory: 5742.76 MB used,  10521.83 MB free, 16264.59 MB total
+[2017.03.08-12.07.47:108][469]LogMemory: Virtual Memory: 2938.03 MB used,  10521.83 MB free, 134217728.00 MB total
+[2017.03.08-12.07.47:108][469]LogMemory: 
+[2017.03.08-12.07.47:108][469]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.07.47:108][469]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.07.47:124][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016040s)
+[2017.03.08-12.07.47:124][469]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.07.47:124][469]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.03.08-12.07.47:125][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.016907s)
+[2017.03.08-12.07.47:125][469]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.07.47:130][469]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.07.47
+[2017.03.08-12.07.47:130][469]LogWorld: Bringing up level for play took: 0.004610
+[2017.03.08-12.07.47:131][469]LogLoad: Took 0.048272 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.07.47:889][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.07.47:959][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.07.52:584][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.08-12.08.43:726][226]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.08.43:739][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.08.43:739][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.08.43:739][226]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:08:43 PM)
+[2017.03.08-12.08.43:740][226]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.08.43:757][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017570s)
+[2017.03.08-12.08.43:758][226]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.08.43:758][226]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2017.03.08-12.08.43:758][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.018665s)
+[2017.03.08-12.08.43:774][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.08.43:782][226]LogInit: FAudioDevice initialized.
+[2017.03.08-12.08.43:823][226]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.08.43:827][226]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.08.43
+[2017.03.08-12.08.43:827][226]LogWorld: Bringing up level for play took: 0.002258
+[2017.03.08-12.08.43:831][226]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.411
+[2017.03.08-12.08.43:832][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.08.48:619][791]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.08.48:619][791]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.08.48:632][791]Cmd: MEM
+[2017.03.08-12.08.48:644][791]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.08.48:644][791]LogMemory: Process Physical Memory: 1365.24 MB used, 1388.78 MB peak
+[2017.03.08-12.08.48:644][791]LogMemory: Process Virtual Memory: 2236.88 MB used, 2385.74 MB peak
+[2017.03.08-12.08.48:644][791]LogMemory: Physical Memory: 5750.18 MB used,  10514.41 MB free, 16264.59 MB total
+[2017.03.08-12.08.48:644][791]LogMemory: Virtual Memory: 3082.28 MB used,  10514.41 MB free, 134217728.00 MB total
+[2017.03.08-12.08.48:644][791]LogMemory: 
+[2017.03.08-12.08.48:644][791]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.08.48:644][791]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.08.48:663][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018721s)
+[2017.03.08-12.08.48:663][791]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.08.48:664][791]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.03.08-12.08.48:664][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.019798s)
+[2017.03.08-12.08.48:664][791]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.08.48:670][791]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.08.48
+[2017.03.08-12.08.48:670][791]LogWorld: Bringing up level for play took: 0.005588
+[2017.03.08-12.08.48:671][791]LogLoad: Took 0.052399 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.08.53:491][367]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.08.53:491][367]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.08.53:504][367]Cmd: MEM
+[2017.03.08-12.08.53:519][367]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.08.53:519][367]LogMemory: Process Physical Memory: 1363.01 MB used, 1388.78 MB peak
+[2017.03.08-12.08.53:519][367]LogMemory: Process Virtual Memory: 2028.83 MB used, 2385.74 MB peak
+[2017.03.08-12.08.53:519][367]LogMemory: Physical Memory: 5746.43 MB used,  10518.16 MB free, 16264.59 MB total
+[2017.03.08-12.08.53:519][367]LogMemory: Virtual Memory: 2923.65 MB used,  10518.16 MB free, 134217728.00 MB total
+[2017.03.08-12.08.53:519][367]LogMemory: 
+[2017.03.08-12.08.53:519][367]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.08.53:519][367]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.08.53:535][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015785s)
+[2017.03.08-12.08.53:536][367]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.08.53:536][367]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2017.03.08-12.08.53:536][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.016591s)
+[2017.03.08-12.08.53:536][367]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.08.53:545][367]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.08.53
+[2017.03.08-12.08.53:545][367]LogWorld: Bringing up level for play took: 0.008111
+[2017.03.08-12.08.53:546][367]LogLoad: Took 0.055436 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.14:428][871]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.14:428][871]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.14:441][871]Cmd: MEM
+[2017.03.08-12.09.14:453][871]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.14:453][871]LogMemory: Process Physical Memory: 1355.82 MB used, 1388.78 MB peak
+[2017.03.08-12.09.14:453][871]LogMemory: Process Virtual Memory: 2021.26 MB used, 2385.74 MB peak
+[2017.03.08-12.09.14:453][871]LogMemory: Physical Memory: 5739.05 MB used,  10525.54 MB free, 16264.59 MB total
+[2017.03.08-12.09.14:453][871]LogMemory: Virtual Memory: 2915.65 MB used,  10525.54 MB free, 134217728.00 MB total
+[2017.03.08-12.09.14:453][871]LogMemory: 
+[2017.03.08-12.09.14:453][871]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.14:453][871]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.14:470][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017285s)
+[2017.03.08-12.09.14:471][871]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.14:471][871]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2017.03.08-12.09.14:471][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.018723s)
+[2017.03.08-12.09.14:471][871]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.14:485][871]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.14
+[2017.03.08-12.09.14:485][871]LogWorld: Bringing up level for play took: 0.012093
+[2017.03.08-12.09.14:485][871]LogLoad: Took 0.057400 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.18:193][314]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.18:193][314]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.18:206][314]Cmd: MEM
+[2017.03.08-12.09.18:217][314]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.18:218][314]LogMemory: Process Physical Memory: 1371.18 MB used, 1388.78 MB peak
+[2017.03.08-12.09.18:218][314]LogMemory: Process Virtual Memory: 2039.54 MB used, 2385.74 MB peak
+[2017.03.08-12.09.18:218][314]LogMemory: Physical Memory: 5749.54 MB used,  10515.05 MB free, 16264.59 MB total
+[2017.03.08-12.09.18:218][314]LogMemory: Virtual Memory: 2932.21 MB used,  10515.05 MB free, 134217728.00 MB total
+[2017.03.08-12.09.18:218][314]LogMemory: 
+[2017.03.08-12.09.18:218][314]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.18:218][314]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.18:231][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013935s)
+[2017.03.08-12.09.18:231][314]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.18:233][314]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.03.08-12.09.18:233][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.014939s)
+[2017.03.08-12.09.18:233][314]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.18:239][314]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.18
+[2017.03.08-12.09.18:239][314]LogWorld: Bringing up level for play took: 0.005464
+[2017.03.08-12.09.18:240][314]LogLoad: Took 0.046800 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.22:004][764]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.22:004][764]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.22:017][764]Cmd: MEM
+[2017.03.08-12.09.22:029][764]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.22:029][764]LogMemory: Process Physical Memory: 1372.15 MB used, 1388.78 MB peak
+[2017.03.08-12.09.22:029][764]LogMemory: Process Virtual Memory: 2037.95 MB used, 2385.74 MB peak
+[2017.03.08-12.09.22:029][764]LogMemory: Physical Memory: 5755.05 MB used,  10509.54 MB free, 16264.59 MB total
+[2017.03.08-12.09.22:029][764]LogMemory: Virtual Memory: 2924.21 MB used,  10509.54 MB free, 134217728.00 MB total
+[2017.03.08-12.09.22:029][764]LogMemory: 
+[2017.03.08-12.09.22:029][764]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.22:029][764]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.22:042][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013282s)
+[2017.03.08-12.09.22:043][764]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.22:043][764]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.03.08-12.09.22:043][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.014409s)
+[2017.03.08-12.09.22:043][764]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.22:050][764]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.22
+[2017.03.08-12.09.22:051][764]LogWorld: Bringing up level for play took: 0.006461
+[2017.03.08-12.09.22:052][764]LogLoad: Took 0.047470 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.25:925][227]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.25:925][227]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.25:938][227]Cmd: MEM
+[2017.03.08-12.09.25:949][227]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.25:949][227]LogMemory: Process Physical Memory: 1373.05 MB used, 1388.78 MB peak
+[2017.03.08-12.09.25:949][227]LogMemory: Process Virtual Memory: 2046.78 MB used, 2385.74 MB peak
+[2017.03.08-12.09.25:950][227]LogMemory: Physical Memory: 5756.33 MB used,  10508.26 MB free, 16264.59 MB total
+[2017.03.08-12.09.25:950][227]LogMemory: Virtual Memory: 2932.21 MB used,  10508.26 MB free, 134217728.00 MB total
+[2017.03.08-12.09.25:950][227]LogMemory: 
+[2017.03.08-12.09.25:950][227]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.25:950][227]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.25:963][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013696s)
+[2017.03.08-12.09.25:964][227]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.25:964][227]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.03.08-12.09.25:964][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.014844s)
+[2017.03.08-12.09.25:964][227]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.25:971][227]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.25
+[2017.03.08-12.09.25:971][227]LogWorld: Bringing up level for play took: 0.005527
+[2017.03.08-12.09.25:972][227]LogLoad: Took 0.046635 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.51:829][328]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.51:830][328]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.51:842][328]Cmd: MEM
+[2017.03.08-12.09.51:854][328]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.51:854][328]LogMemory: Process Physical Memory: 1357.06 MB used, 1388.78 MB peak
+[2017.03.08-12.09.51:854][328]LogMemory: Process Virtual Memory: 2022.32 MB used, 2385.74 MB peak
+[2017.03.08-12.09.51:854][328]LogMemory: Physical Memory: 5740.29 MB used,  10524.30 MB free, 16264.59 MB total
+[2017.03.08-12.09.51:854][328]LogMemory: Virtual Memory: 2915.65 MB used,  10524.30 MB free, 134217728.00 MB total
+[2017.03.08-12.09.51:854][328]LogMemory: 
+[2017.03.08-12.09.51:854][328]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.51:854][328]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.51:870][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015769s)
+[2017.03.08-12.09.51:870][328]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.51:871][328]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.03.08-12.09.51:871][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.017080s)
+[2017.03.08-12.09.51:871][328]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.51:882][328]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.51
+[2017.03.08-12.09.51:882][328]LogWorld: Bringing up level for play took: 0.010541
+[2017.03.08-12.09.51:883][328]LogLoad: Took 0.053663 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.09.57:807][ 37]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.57:807][ 37]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.09.57:819][ 37]Cmd: MEM
+[2017.03.08-12.09.57:831][ 37]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.09.57:831][ 37]LogMemory: Process Physical Memory: 1371.83 MB used, 1388.78 MB peak
+[2017.03.08-12.09.57:831][ 37]LogMemory: Process Virtual Memory: 2041.59 MB used, 2385.74 MB peak
+[2017.03.08-12.09.57:831][ 37]LogMemory: Physical Memory: 5749.27 MB used,  10515.32 MB free, 16264.59 MB total
+[2017.03.08-12.09.57:831][ 37]LogMemory: Virtual Memory: 2932.21 MB used,  10515.32 MB free, 134217728.00 MB total
+[2017.03.08-12.09.57:831][ 37]LogMemory: 
+[2017.03.08-12.09.57:831][ 37]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.09.57:831][ 37]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.09.57:846][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014634s)
+[2017.03.08-12.09.57:846][ 37]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.09.57:847][ 37]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.03.08-12.09.57:847][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.015802s)
+[2017.03.08-12.09.57:847][ 37]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.09.57:853][ 37]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.09.57
+[2017.03.08-12.09.57:853][ 37]LogWorld: Bringing up level for play took: 0.004783
+[2017.03.08-12.09.57:853][ 37]LogLoad: Took 0.046852 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.10.03:152][671]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.10.03:152][671]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.10.03:165][671]Cmd: MEM
+[2017.03.08-12.10.03:176][671]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.10.03:177][671]LogMemory: Process Physical Memory: 1372.63 MB used, 1388.78 MB peak
+[2017.03.08-12.10.03:177][671]LogMemory: Process Virtual Memory: 2037.89 MB used, 2385.74 MB peak
+[2017.03.08-12.10.03:177][671]LogMemory: Physical Memory: 5755.11 MB used,  10509.48 MB free, 16264.59 MB total
+[2017.03.08-12.10.03:177][671]LogMemory: Virtual Memory: 2924.21 MB used,  10509.48 MB free, 134217728.00 MB total
+[2017.03.08-12.10.03:177][671]LogMemory: 
+[2017.03.08-12.10.03:177][671]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.10.03:177][671]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.10.03:191][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014299s)
+[2017.03.08-12.10.03:192][671]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.10.03:192][671]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2017.03.08-12.10.03:192][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.015364s)
+[2017.03.08-12.10.03:192][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.10.03:199][671]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.10.03
+[2017.03.08-12.10.03:199][671]LogWorld: Bringing up level for play took: 0.005211
+[2017.03.08-12.10.03:200][671]LogLoad: Took 0.046929 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.10.07:816][223]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.10.07:816][223]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.10.07:828][223]Cmd: MEM
+[2017.03.08-12.10.07:840][223]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.10.07:840][223]LogMemory: Process Physical Memory: 1371.77 MB used, 1388.78 MB peak
+[2017.03.08-12.10.07:840][223]LogMemory: Process Virtual Memory: 2038.16 MB used, 2385.74 MB peak
+[2017.03.08-12.10.07:840][223]LogMemory: Physical Memory: 5754.46 MB used,  10510.13 MB free, 16264.59 MB total
+[2017.03.08-12.10.07:840][223]LogMemory: Virtual Memory: 2924.21 MB used,  10510.13 MB free, 134217728.00 MB total
+[2017.03.08-12.10.07:840][223]LogMemory: 
+[2017.03.08-12.10.07:840][223]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.10.07:840][223]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.10.07:854][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013681s)
+[2017.03.08-12.10.07:854][223]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.10.07:854][223]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.03.08-12.10.07:854][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.014619s)
+[2017.03.08-12.10.07:855][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.10.07:864][223]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.10.07
+[2017.03.08-12.10.07:864][223]LogWorld: Bringing up level for play took: 0.008590
+[2017.03.08-12.10.07:865][223]LogLoad: Took 0.048994 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.41.48:383][241]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.41.48:383][241]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.41.48:398][241]Cmd: MEM
+[2017.03.08-12.41.48:410][241]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.41.48:410][241]LogMemory: Process Physical Memory: 1357.66 MB used, 1388.78 MB peak
+[2017.03.08-12.41.48:410][241]LogMemory: Process Virtual Memory: 2022.84 MB used, 2385.74 MB peak
+[2017.03.08-12.41.48:410][241]LogMemory: Physical Memory: 5683.92 MB used,  10580.67 MB free, 16264.59 MB total
+[2017.03.08-12.41.48:410][241]LogMemory: Virtual Memory: 2902.84 MB used,  10580.67 MB free, 134217728.00 MB total
+[2017.03.08-12.41.48:410][241]LogMemory: 
+[2017.03.08-12.41.48:410][241]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.41.48:410][241]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.41.48:426][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016204s)
+[2017.03.08-12.41.48:427][241]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.41.48:427][241]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.03.08-12.41.48:427][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.017435s)
+[2017.03.08-12.41.48:427][241]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.41.48:439][241]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.41.48
+[2017.03.08-12.41.48:439][241]LogWorld: Bringing up level for play took: 0.010807
+[2017.03.08-12.41.48:440][241]LogLoad: Took 0.057151 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.41.49:105][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.41.49:173][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.45.29:441][674]LogActorFactory: Actor Factory created MaterialSphere
+[2017.03.08-12.45.29:839][718]LogActorFactory: Actor Factory created MaterialSphere
+[2017.03.08-12.45.39:984][872]LogRenderer: Reallocating scene render targets to support 1616x1260 NumSamples 1 (Frame:291758).
+[2017.03.08-12.46.25:783][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:783][873]LogMetaData: Removing '/Game/Heikki/Collectible.SKEL_Collectible_C' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible_C' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.SKEL_Collectible_C:UserConstructionScript' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:784][873]LogMetaData: Removing '/Game/Heikki/Collectible.Collectible_C:UserConstructionScript' ref from Metadata '/Game/Collectible.PackageMetaData'
+[2017.03.08-12.46.25:820][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-12.46.25:840][873]LogSavePackage: Save=18.99ms
+[2017.03.08-12.46.25:840][873]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible9C3E40D842211ABF51BB45BC8B1609B2.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-12.46.25:842][873]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C:UserConstructionScript' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C:Box' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C:StaticMesh' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C:ExecuteUbergraph_Egg_Base' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C:UserConstructionScript' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C:Box' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.SKEL_Egg_Base_C:StaticMesh' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C:ExecuteUbergraph_Egg_Base' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:332][124]LogMetaData: Removing '/Game/Heikki/Egg_Base.Egg_Base_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Egg_Base.PackageMetaData'
+[2017.03.08-12.46.28:374][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.46.28:396][124]LogSavePackage: Save=20.76ms
+[2017.03.08-12.46.28:396][124]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_BaseED805F414208968038FBA2981624BF35.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset'
+[2017.03.08-12.46.28:397][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset
+[2017.03.08-12.46.28:402][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.46.28:413][124]LogSavePackage: Save=5.69ms
+[2017.03.08-12.46.28:413][124]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_BaseDBC36A834EA88E6FC1233092631371AE.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset'
+[2017.03.08-12.46.28:415][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Egg_Base.uasset
+[2017.03.08-12.48.02:589][ 89]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.Collectible.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.02:589][ 89]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_5:PersistentLevel.Collectible_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.02:589][ 89]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Collectible_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.03:808][234]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_5:PersistentLevel.Collectible_C_0.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.03:808][234]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Collectible_C_1.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.03:808][234]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.Collectible.StaticMesh) Not currently registered. Aborting.
+[2017.03.08-12.48.35:079][964]LogSlate: Took 0.004085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.08-12.48.42:362][826]BlueprintLog: New page: Compile Collectible
+[2017.03.08-12.50.25:873][662]LogSavePackage: Save=215.70ms
+[2017.03.08-12.50.25:873][662]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli_Auto13BEDF328404D64348B2C1D9BE5065376.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestiLeveli_Auto1.umap'
+[2017.03.08-12.50.25:874][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/ThirdPersonBP/Maps/TestiLeveli_Auto1.umap
+[2017.03.08-12.50.25:876][662]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/TestiLeveli' took 0.245
+[2017.03.08-12.50.25:876][662]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
+[2017.03.08-12.50.25:882][662]LogSavePackage: Save=3.66ms
+[2017.03.08-12.50.25:882][662]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible_Auto1EBE646984C979C45D62AB285B6EF78B0.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Collectible_Auto1.uasset'
+[2017.03.08-12.50.25:883][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Collectible_Auto1.uasset
+[2017.03.08-12.50.25:884][662]LogExec:Warning: Missing filename
+[2017.03.08-12.50.25:884][662]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Heikki/Collectible] ([1] browsable assets)...
+[2017.03.08-12.50.25:898][662]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Heikki/Collectible.Collectible]
+[2017.03.08-12.50.25:898][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/Heikki/Collectible]
+[2017.03.08-12.50.25:924][662]LogSavePackage: Save=18.64ms
+[2017.03.08-12.50.25:924][662]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible_Auto1B3465D7045BE59308540FCAE9B34A137.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Heikki/Collectible_Auto1.uasset'
+[2017.03.08-12.50.25:925][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Heikki/Collectible_Auto1.uasset
+[2017.03.08-12.50.25:925][662]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Heikki/Egg_Base] ([1] browsable assets)...
+[2017.03.08-12.50.25:925][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/Heikki/Egg_Base]
+[2017.03.08-12.50.25:941][662]LogSavePackage: Save=13.04ms
+[2017.03.08-12.50.25:941][662]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_Base_Auto1C3A77A9A40BAAA08929EE5B10A1060E2.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Heikki/Egg_Base_Auto1.uasset'
+[2017.03.08-12.50.25:941][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Autosaves/Game/Heikki/Egg_Base_Auto1.uasset
+[2017.03.08-12.50.25:941][662]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.03.08-12.51.10:934][ 26]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.51.10:942][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.10:942][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.51.10:942][ 26]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:51:10 PM)
+[2017.03.08-12.51.10:943][ 26]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.51.10:959][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016376s)
+[2017.03.08-12.51.10:960][ 26]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.51.10:960][ 26]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2017.03.08-12.51.10:961][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.018086s)
+[2017.03.08-12.51.10:981][ 26]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.51.10:990][ 26]LogInit: FAudioDevice initialized.
+[2017.03.08-12.51.11:023][ 26]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.51.11:027][ 26]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.51.11
+[2017.03.08-12.51.11:028][ 26]LogWorld: Bringing up level for play took: 0.002685
+[2017.03.08-12.51.11:030][ 26]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli -0.385
+[2017.03.08-12.51.11:030][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.20:417][146]LogNet: Browse: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.51.20:417][146]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/TestiLeveli
+[2017.03.08-12.51.20:432][146]Cmd: MEM
+[2017.03.08-12.51.20:444][146]LogMemory: Platform Memory Stats for Windows
+[2017.03.08-12.51.20:444][146]LogMemory: Process Physical Memory: 1394.39 MB used, 1421.50 MB peak
+[2017.03.08-12.51.20:444][146]LogMemory: Process Virtual Memory: 2365.19 MB used, 2555.53 MB peak
+[2017.03.08-12.51.20:444][146]LogMemory: Physical Memory: 5855.80 MB used,  10408.79 MB free, 16264.59 MB total
+[2017.03.08-12.51.20:444][146]LogMemory: Virtual Memory: 3290.16 MB used,  10408.79 MB free, 134217728.00 MB total
+[2017.03.08-12.51.20:444][146]LogMemory: 
+[2017.03.08-12.51.20:444][146]Allocator Stats for TBB: (not implemented)
+[2017.03.08-12.51.20:444][146]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.51.20:459][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014762s)
+[2017.03.08-12.51.20:460][146]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.51.20:460][146]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2017.03.08-12.51.20:460][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.016009s)
+[2017.03.08-12.51.20:460][146]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.51.20:473][146]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.51.20
+[2017.03.08-12.51.20:474][146]LogWorld: Bringing up level for play took: 0.012021
+[2017.03.08-12.51.20:474][146]LogLoad: Took 0.057501 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli)
+[2017.03.08-12.51.21:397][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.21:462][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.29:889][ 29]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.51.29:903][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.29:903][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.51.29:903][ 29]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:51:29 PM)
+[2017.03.08-12.51.29:903][ 29]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.51.29:917][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013854s)
+[2017.03.08-12.51.29:918][ 29]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.51.29:918][ 29]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2017.03.08-12.51.29:918][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.015079s)
+[2017.03.08-12.51.29:937][ 29]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.51.29:945][ 29]LogInit: FAudioDevice initialized.
+[2017.03.08-12.51.29:984][ 29]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.51.29:986][ 29]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.51.29
+[2017.03.08-12.51.29:986][ 29]LogWorld: Bringing up level for play took: 0.001962
+[2017.03.08-12.51.29:989][ 29]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.574
+[2017.03.08-12.51.29:989][ 29]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.47:263][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.51.47:334][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.52.09:981][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Egg_Base" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset" SILENT=true
+[2017.03.08-12.52.10:000][786]LogSavePackage: Save=12.83ms
+[2017.03.08-12.52.10:000][786]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Egg_BaseA25A5A864FFE5AF8DD61DA91E1000404.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset'
+[2017.03.08-12.52.10:006][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Egg_Base.uasset
+[2017.03.08-12.52.14:918][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Collectible.uasset" SILENT=true
+[2017.03.08-12.52.14:923][195]LogSavePackage: Save=3.21ms
+[2017.03.08-12.52.14:923][195]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible6C2445324DF644D3EA8B0EAEA1A5B418.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Collectible.uasset'
+[2017.03.08-12.52.14:927][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Collectible.uasset
+[2017.03.08-12.52.14:934][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-12.52.14:947][195]LogSavePackage: Save=11.25ms
+[2017.03.08-12.52.14:947][195]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible825C8D2E4F11D1C5C05B2A8C9C5BF0BC.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-12.52.14:951][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-12.52.15:226][195]LogSavePackage: Save=218.02ms
+[2017.03.08-12.52.15:226][195]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli98067FB44F5053EB4AE0E9BBB5AA8AAA.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-12.52.15:229][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-12.52.15:249][195]LogFileHelpers: Saving map 'TestiLeveli' took 0.292
+[2017.03.08-12.52.18:391][565]LogEditorViewport: Clicking on Actor (LMB): Collectible_C (Collectible)
+[2017.03.08-12.55.37:448][317]BlueprintLog: New page: Compile Collectible
+[2017.03.08-12.55.38:113][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-12.55.38:145][379]LogSavePackage: Save=23.48ms
+[2017.03.08-12.55.38:145][379]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible3EEBB1FD46AB3364C6B27C9B8973BFA3.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-12.55.38:148][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-12.56.04:095][ 69]LogSavePackage: Save=211.96ms
+[2017.03.08-12.56.04:095][ 69]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveliA3AEB6BB45EF9B8D8B73F18704888D9A.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-12.56.04:099][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-12.56.04:123][ 69]LogFileHelpers: Saving map 'TestiLeveli' took 0.302
+[2017.03.08-12.56.24:124][683]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.56.24:132][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.56.24:133][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.56.24:133][683]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:56:24 PM)
+[2017.03.08-12.56.24:133][683]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.56.24:149][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016137s)
+[2017.03.08-12.56.24:150][683]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.56.24:150][683]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.03.08-12.56.24:150][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.017435s)
+[2017.03.08-12.56.24:167][683]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.56.24:175][683]LogInit: FAudioDevice initialized.
+[2017.03.08-12.56.24:216][683]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.56.24:219][683]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.56.24
+[2017.03.08-12.56.24:220][683]LogWorld: Bringing up level for play took: 0.002510
+[2017.03.08-12.56.24:224][683]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.809
+[2017.03.08-12.56.24:224][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.56.32:488][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.56.32:563][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.56.52:622][924]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.Collectible_C_2.StaticMeshComponent0) Not currently registered. Aborting.
+[2017.03.08-12.56.52:622][924]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_5:PersistentLevel.Collectible_C_0.StaticMeshComponent0) Not currently registered. Aborting.
+[2017.03.08-12.56.52:622][924]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.Collectible.StaticMeshComponent0) Not currently registered. Aborting.
+[2017.03.08-12.56.55:728][266]BlueprintLog: New page: Compile Collectible
+[2017.03.08-12.56.56:725][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-12.56.56:749][342]LogSavePackage: Save=21.35ms
+[2017.03.08-12.56.56:749][342]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible54AEDAEC4F9FEF33E520C8833EF942DD.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-12.56.56:752][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-12.56.57:509][433]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-12.56.57:519][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.56.57:520][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-12.56.57:520][433]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 4:56:57 PM)
+[2017.03.08-12.56.57:520][433]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-12.56.57:535][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015009s)
+[2017.03.08-12.56.57:535][433]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-12.56.57:536][433]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.03.08-12.56.57:536][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.016179s)
+[2017.03.08-12.56.57:554][433]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-12.56.57:562][433]LogInit: FAudioDevice initialized.
+[2017.03.08-12.56.57:594][433]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-12.56.57:597][433]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-14.56.57
+[2017.03.08-12.56.57:597][433]LogWorld: Bringing up level for play took: 0.002209
+[2017.03.08-12.56.57:599][433]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.185
+[2017.03.08-12.56.57:600][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.57.06:581][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-12.57.06:655][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.00.11:170][607]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.01.52:111][666]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.02.01:275][736]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.04.46:635][434]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.04.47:259][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-13.04.47:287][488]LogSavePackage: Save=22.92ms
+[2017.03.08-13.04.47:287][488]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/CollectibleDD318B0E4482A7CA8D47F7B0557E91A5.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-13.04.47:290][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-13.04.48:145][589]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-13.04.48:154][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.04.48:154][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-13.04.48:154][589]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 5:04:48 PM)
+[2017.03.08-13.04.48:155][589]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-13.04.48:171][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015822s)
+[2017.03.08-13.04.48:172][589]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-13.04.48:172][589]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2017.03.08-13.04.48:172][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.017080s)
+[2017.03.08-13.04.48:192][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-13.04.48:200][589]LogInit: FAudioDevice initialized.
+[2017.03.08-13.04.48:240][589]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-13.04.48:244][589]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-15.04.48
+[2017.03.08-13.04.48:244][589]LogWorld: Bringing up level for play took: 0.002649
+[2017.03.08-13.04.48:247][589]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.832
+[2017.03.08-13.04.48:247][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.04.51:300][945]LogBlueprintUserMessages: [Collectible] 1
+[2017.03.08-13.04.55:324][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.04.55:395][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.04.57:246][643]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-13.04.57:256][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.04.57:256][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-13.04.57:256][643]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 5:04:57 PM)
+[2017.03.08-13.04.57:256][643]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-13.04.57:271][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014985s)
+[2017.03.08-13.04.57:272][643]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-13.04.57:272][643]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2017.03.08-13.04.57:272][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.016259s)
+[2017.03.08-13.04.57:289][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-13.04.57:296][643]LogInit: FAudioDevice initialized.
+[2017.03.08-13.04.57:337][643]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-13.04.57:341][643]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-15.04.57
+[2017.03.08-13.04.57:342][643]LogWorld: Bringing up level for play took: 0.002213
+[2017.03.08-13.04.57:344][643]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli -0.071
+[2017.03.08-13.04.57:344][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.00:160][974]LogBlueprintUserMessages: [Collectible] 1
+[2017.03.08-13.05.03:544][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.03:614][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.09:932][906]LogSavePackage: Save=223.20ms
+[2017.03.08-13.05.09:932][906]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli3704AE9D4D6971721C5FFAB1C1C3E1FC.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-13.05.09:935][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-13.05.09:954][906]LogFileHelpers: Saving map 'TestiLeveli' took 0.307
+[2017.03.08-13.05.25:837][712]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-13.05.25:847][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.25:847][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-13.05.25:847][712]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 5:05:25 PM)
+[2017.03.08-13.05.25:847][712]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-13.05.25:861][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013918s)
+[2017.03.08-13.05.25:862][712]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-13.05.25:862][712]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.03.08-13.05.25:862][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.015020s)
+[2017.03.08-13.05.25:881][712]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-13.05.25:889][712]LogInit: FAudioDevice initialized.
+[2017.03.08-13.05.25:929][712]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-13.05.25:933][712]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-15.05.25
+[2017.03.08-13.05.25:933][712]LogWorld: Bringing up level for play took: 0.002166
+[2017.03.08-13.05.25:937][712]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli 0.522
+[2017.03.08-13.05.25:937][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.28:533][ 14]LogBlueprintUserMessages: [Collectible2_76] 1
+[2017.03.08-13.05.28:592][ 21]LogScript:Warning: Attempted to access StaticMeshComponent0 via property StaticMeshComponent, but StaticMeshComponent0 is pending kill
+	Collectible_C /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli:PersistentLevel.Collectible2_76
+	Function /Game/Heikki/Collectible.Collectible_C:ExecuteUbergraph_Collectible:005C
+[2017.03.08-13.05.28:592][ 21]PIE:Error: Error Blueprint Runtime Error: Attempted to access StaticMeshComponent0 via property StaticMeshComponent, but StaticMeshComponent0 is pending kill from function: 'ExecuteUbergraph_Collectible' from node: DestroyComponent in graph: EventGraph in object: Collectible with description: Attempted to access StaticMeshComponent0 via property StaticMeshComponent, but StaticMeshComponent0 is pending kill
+[2017.03.08-13.05.28:592][ 21]LogBlueprintUserMessages: [Collectible2_76] 2
+[2017.03.08-13.05.29:625][145]LogBlueprintUserMessages: [Collectible] 1
+[2017.03.08-13.05.30:584][260]LogBlueprintUserMessages: [Collectible3_177] 1
+[2017.03.08-13.05.35:668][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.05.35:743][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.06.29:617][221]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.06.30:776][345]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-13.06.30:786][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.06.30:786][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-13.06.30:786][345]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 5:06:30 PM)
+[2017.03.08-13.06.30:786][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-13.06.30:802][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016518s)
+[2017.03.08-13.06.30:803][345]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-13.06.30:803][345]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.03.08-13.06.30:803][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.017545s)
+[2017.03.08-13.06.30:821][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-13.06.30:829][345]LogInit: FAudioDevice initialized.
+[2017.03.08-13.06.30:865][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-13.06.30:868][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-15.06.30
+[2017.03.08-13.06.30:868][345]LogWorld: Bringing up level for play took: 0.002103
+[2017.03.08-13.06.30:870][345]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli -0.544
+[2017.03.08-13.06.30:870][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.06.33:169][614]LogBlueprintUserMessages: [Collectible2_76] 1
+[2017.03.08-13.06.34:111][727]LogBlueprintUserMessages: [Collectible] 1
+[2017.03.08-13.06.35:053][840]LogBlueprintUserMessages: [Collectible3_177] 1
+[2017.03.08-13.06.36:096][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.06.36:169][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.07.44:616][157]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.08-13.07.44:626][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.07.44:626][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.08-13.07.44:626][157]PIE: New page: PIE session: TestiLeveli (Mar 8, 2017, 5:07:44 PM)
+[2017.03.08-13.07.44:626][157]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli
+[2017.03.08-13.07.44:643][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016938s)
+[2017.03.08-13.07.44:644][157]LogAIModule: Creating AISystem for world TestiLeveli
+[2017.03.08-13.07.44:644][157]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.03.08-13.07.44:644][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli to /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli (0.018039s)
+[2017.03.08-13.07.44:663][157]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.08-13.07.44:671][157]LogInit: FAudioDevice initialized.
+[2017.03.08-13.07.44:709][157]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.08-13.07.44:713][157]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli.TestiLeveli up for play (max tick rate 0) at 2017.03.08-15.07.44
+[2017.03.08-13.07.44:713][157]LogWorld: Bringing up level for play took: 0.002292
+[2017.03.08-13.07.44:715][157]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TestiLeveli -0.7
+[2017.03.08-13.07.44:715][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.07.47:329][464]LogBlueprintUserMessages: [Collectible2_76] 1
+[2017.03.08-13.07.47:871][529]LogBlueprintUserMessages: [Collectible] 1
+[2017.03.08-13.07.48:813][642]LogBlueprintUserMessages: [Collectible3_177] 1
+[2017.03.08-13.07.51:580][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.07.51:652][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli' with GeneratedClass '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TestiLeveli.TestiLeveli:PersistentLevel.TestiLeveli'
+[2017.03.08-13.10.05:720][708]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.12.53:503][649]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.03.08-13.12.54:183][697]LogSavePackage: Save=37.18ms
+[2017.03.08-13.12.54:183][697]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/ThirdPersonCharacter7432EFFC422EFAB5D3934A9897ECBC3A.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.03.08-13.12.54:185][697]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.03.08-13.12.58:038][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-13.12.58:065][151]LogSavePackage: Save=21.05ms
+[2017.03.08-13.12.58:065][151]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible2580175D42F6AFB15040148F26BAF68C.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-13.12.58:067][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-13.13.13:873][ 25]BlueprintLog: New page: Compile Collectible
+[2017.03.08-13.13.14:752][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Heikki/Collectible" FILE="../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset" SILENT=true
+[2017.03.08-13.13.14:776][111]LogSavePackage: Save=21.41ms
+[2017.03.08-13.13.14:776][111]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collectible1A7E7F254705FE7D9BEBD0A80857B3D3.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset'
+[2017.03.08-13.13.14:778][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Heikki/Collectible.uasset
+[2017.03.08-13.13.36:639][686]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.03.08-13.13.55:984][926]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.03.08-13.13.58:910][245]LogSavePackage: Save=37.39ms
+[2017.03.08-13.13.58:910][245]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/ThirdPersonCharacter352C0D8A42E58CC58B28F9BEEAB1CDED.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.03.08-13.13.58:912][245]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.03.08-13.14.03:452][571]LogSavePackage: Save=222.77ms
+[2017.03.08-13.14.03:452][571]LogSavePackage: Moving '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/TestiLeveli861E334148BE4C6384138CA7B6E6E91F.tmp' to '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap'
+[2017.03.08-13.14.03:455][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/ThirdPersonBP/Maps/TestiLeveli.umap
+[2017.03.08-13.14.03:473][571]LogFileHelpers: Saving map 'TestiLeveli' took 0.312
+[2017.03.08-13.14.09:286][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.08-13.14.09:338][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.08-13.14.09:566][243]Cmd: QUIT_EDITOR
+[2017.03.08-13.14.10:435][243]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.08-13.14.10:457][243]LogExit: Preparing to exit.
+[2017.03.08-13.14.11:579][243]LogDirectoryWatcher: A directory notification for 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/' was aborted.
+[2017.03.08-13.14.11:604][243]LogExit: Editor shut down
+[2017.03.08-13.14.11:604][243]LogExit: Transaction tracking system shut down
+[2017.03.08-13.14.11:678][243]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.08-13.14.11:678][243]LogExit: Object subsystem successfully closed.
+[2017.03.08-13.14.11:693][243]LogD3D11RHI: Shutdown
+[2017.03.08-13.14.11:693][243]LogD3D11RHI: CleanupD3DDevice
+[2017.03.08-13.14.11:763][243]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (502)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.08-13.14.11:773][243]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.08-13.14.11:773][243]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.08-13.14.11:774][243]LogDirectoryWatcher: A directory notification for 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Collections/' was aborted.
+[2017.03.08-13.14.11:774][243]LogDirectoryWatcher: A directory notification for 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/Developers/heikkivayrynen/Collections/' was aborted.
+[2017.03.08-13.14.11:774][243]LogDirectoryWatcher: A directory notification for 'C:/Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Saved/Collections/' was aborted.
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.08-13.14.11:774][243]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.08-13.14.12:685][243]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.08-13.14.12:738][243]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.08-13.14.12:744][243]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.08-13.14.12:867][243]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.08-13.14.12:868][243]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.08-13.14.12:868][243]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.08-13.14.12:868][243]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.08-13.14.12:868][243]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.08-13.14.12:869][243]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.08-13.14.12:869][243]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.08-13.14.12:869][243]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.08-13.14.12:869][243]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.08-13.14.12:970][243]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.08-13.14.13:070][243]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.08-13.14.13:072][243]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.08-13.14.13:269][243]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.08-13.14.13:269][243]LogDirectoryWatcher: A directory notification for '../../../../../../Users/heikki.vayrynen/Documents/GitHub/Hugis/Hugis_project/Content/' was aborted.
+[2017.03.08-13.14.13:269][243]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.08-13.14.13:269][243]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.08-13.14.13:364][243]LogDerivedDataCache: Shutdown
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.08-13.14.13:364][243]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.08-13.14.13:365][243]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.08-13.14.13:365][243]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.08-13.14.13:365][243]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.03.08-13.14.13:365][243]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2D33408B-4423-94CA-B5FD-4E8CAC0E4056%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=6440c3fc4e65f3bf7fbfb1aff0b9a2c1%7Cc1685f7445034023888ebcba54b5c93a%7C207260fe-eb3b-4c5e-b094-b085def4ebbe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.08-13.14.13:365][243]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2D33408B-4423-94CA-B5FD-4E8CAC0E4056%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=6440c3fc4e65f3bf7fbfb1aff0b9a2c1%7Cc1685f7445034023888ebcba54b5c93a%7C207260fe-eb3b-4c5e-b094-b085def4ebbe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.08-13.14.13:393][243]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.08-13.14.13:394][243]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.08-13.14.13:394][243]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.08-13.14.13:394][243]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.08-13.14.13:394][243]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.08-13.14.13:394][243]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.08-13.14.13:395][243]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.08-13.14.13:397][243]LogExit: Exiting.
+[2017.03.08-13.14.13:407][243]Log file closed, 03/08/17 15:14:13
